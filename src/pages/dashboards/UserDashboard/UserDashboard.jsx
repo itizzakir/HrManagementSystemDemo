@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import DashboardLayout from "../../../components/layout/DashboardLayout";
-import ProfileImg from "../../../assets/Image/ProfileImg.png";
+import ProfileImg from "../../../assets/Image/profileimg.png";
 
 import {
   CalendarDaysIcon,
@@ -58,7 +58,7 @@ const UserDashboard = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Column: My Profile and Team */}
+          {/* Left Column: My Profile and Team  */}
           <div className="lg:col-span-1 space-y-8">
             <InfoCard
               title="My Profile"
