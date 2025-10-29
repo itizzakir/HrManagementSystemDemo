@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import bgImage from '../assets/Image/LoginBgImg.jpg';
 import { WorkBridgeLogoIcon, HomeIcon } from '../components/ui/Icons';
-import { usersDB } from '../components/data/mockUsers'; // --- IMPORT THE SIMULATED DB ---
+import { usersDB } from '../components/data/mockUsers'; // --- IMPORT THE SIMULATED DB   ---
 
 const Login = () => {
   const [email, setEmail] = useState("");
