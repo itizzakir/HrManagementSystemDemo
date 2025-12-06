@@ -6,7 +6,7 @@ import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import AdminSignup from './pages/AdminSignup';
 
-// --- Onboarding Flow Pages ---
+// --- Onboarding Flow Pages --- 
 import ForceResetPassword from './pages/ForcedResetPassword';
 
 // --- Dashboard Home Pages ---
@@ -44,7 +44,7 @@ function App() {
       {/* --- Landing and Authentication Routes --- */}
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/signup/admin" element={<AdminSignup />} />
+      <Route path="/signup/admin" element={<AdminSignup />}/>
       
       {/* --- Onboarding Routes for New Users --- */}
       <Route path="/force-reset-password" element={<ForceResetPassword />} />
