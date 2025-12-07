@@ -15,7 +15,7 @@ const ForceResetPassword = () => {
 
   // Redirect if user lands here directly without being sent from Login
   if (!email || !role) {
-      // In a real app, you might navigate to login or an error page
+      // In a real app, you might navigate to login or an error page 
       return (
           <div className="min-h-screen flex items-center justify-center bg-gray-100">
               <p>Invalid access. Please log in first.</p>
